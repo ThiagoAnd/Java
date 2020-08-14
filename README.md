@@ -1,2 +1,2 @@
 # Java
-💻 Projects involving Java as a base
+💻 Java projects
