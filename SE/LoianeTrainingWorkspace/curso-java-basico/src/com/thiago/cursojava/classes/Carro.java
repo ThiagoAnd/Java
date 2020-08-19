@@ -1,4 +1,4 @@
-package com.thiago.cursojava.classecarro;
+package com.thiago.cursojava.classes;
 
 public class Carro {
 
