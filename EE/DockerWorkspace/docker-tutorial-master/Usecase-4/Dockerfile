@@ -1,7 +1,7 @@
 # Updated as of Aug 16, 2017
 #FROM specified which image i want to download
 # Needs to be provided before any other section of code.
-FROM tomcat:8.5
+FROM tomcat:8.5.16-jre8-alpine 
 
 #Author of the Docker File
 # MAINTAINER Pictolearn Note: MAINTAINER has been deprecated for LABEL, 
