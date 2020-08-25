@@ -1,0 +1,112 @@
+2020-08-24 21:48:12,083 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-08-24 21:50:26,216 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-08-24 21:51:31,948 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.fapi.prova.java:prova-spring:0.0.1-SNAPSHOT @ C:\Users\s4lez\Desktop\THIAGO\Java\EE\Projeto1SBWorkspace\prova-spring\pom.xml.
+2020-08-24 21:51:33,956 [Worker-1: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.fapi.prova.java:prova-spring:0.0.1-SNAPSHOT @ C:\Users\s4lez\Desktop\THIAGO\Java\EE\Projeto1SBWorkspace\prova-spring\pom.xml.
+2020-08-24 21:51:38,298 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 21:51:38,304 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-24 21:51:38,330 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-24 21:51:38,333 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 21:51:38,334 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\s4lez\Desktop\THIAGO\Java\EE\Projeto1SBWorkspace\prova-spring\src\test\resources
+2020-08-24 21:51:40,879 [Worker-9: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.fapi.prova.java:prova-spring:0.0.1-SNAPSHOT @ C:\Users\s4lez\Desktop\THIAGO\Java\EE\Projeto1SBWorkspace\prova-spring\pom.xml.
+2020-08-24 21:51:41,826 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 21:51:41,834 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-24 21:51:41,862 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-24 21:51:41,865 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 21:51:41,865 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\s4lez\Desktop\THIAGO\Java\EE\Projeto1SBWorkspace\prova-spring\src\test\resources
+2020-08-24 21:51:44,648 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 21:51:44,650 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-24 21:51:44,654 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-24 21:51:44,656 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 21:51:44,656 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\s4lez\Desktop\THIAGO\Java\EE\Projeto1SBWorkspace\prova-spring\src\test\resources
+2020-08-24 21:54:03,869 [Worker-8: Launching Executing install in C__Users_s4lez_Desktop_THIAGO_Java_EE_Projeto1SBWorkspace_prova-spring] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\s4lez\Desktop\THIAGO\Java\EE\Projeto1SBWorkspace\prova-spring
+2020-08-24 21:54:03,873 [Worker-8: Launching Executing install in C__Users_s4lez_Desktop_THIAGO_Java_EE_Projeto1SBWorkspace_prova-spring] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2020-08-24 21:54:29,573 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 21:54:29,575 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-24 21:54:29,579 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-24 21:54:29,580 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 21:54:29,581 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\s4lez\Desktop\THIAGO\Java\EE\Projeto1SBWorkspace\prova-spring\src\test\resources
+2020-08-24 21:54:48,646 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 21:54:48,647 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-24 21:54:48,650 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-24 21:54:48,652 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 21:54:48,653 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\s4lez\Desktop\THIAGO\Java\EE\Projeto1SBWorkspace\prova-spring\src\test\resources
+2020-08-24 21:55:10,767 [Worker-13: Launching Executing clean in C__Users_s4lez_Desktop_THIAGO_Java_EE_Projeto1SBWorkspace_prova-spring] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\s4lez\Desktop\THIAGO\Java\EE\Projeto1SBWorkspace\prova-spring
+2020-08-24 21:55:10,767 [Worker-13: Launching Executing clean in C__Users_s4lez_Desktop_THIAGO_Java_EE_Projeto1SBWorkspace_prova-spring] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2020-08-24 21:55:13,680 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 21:55:13,683 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-24 21:55:13,688 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-24 21:55:13,690 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 21:55:13,691 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\s4lez\Desktop\THIAGO\Java\EE\Projeto1SBWorkspace\prova-spring\src\test\resources
+2020-08-24 21:57:19,877 [Worker-17: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.fapi.prova.java:prova-spring:0.0.1-SNAPSHOT @ C:\Users\s4lez\Desktop\THIAGO\Java\EE\Projeto1SBWorkspace\prova-spring\pom.xml.
+2020-08-24 21:57:22,565 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 21:57:22,566 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-24 21:57:22,578 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-24 21:57:22,580 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 21:57:22,581 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\s4lez\Desktop\THIAGO\Java\EE\Projeto1SBWorkspace\prova-spring\src\test\resources
+2020-08-24 21:57:24,627 [Worker-9: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.fapi.prova.java:prova-spring:0.0.1-SNAPSHOT @ C:\Users\s4lez\Desktop\THIAGO\Java\EE\Projeto1SBWorkspace\prova-spring\pom.xml.
+2020-08-24 21:57:26,054 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 21:57:26,058 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-24 21:57:26,073 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-24 21:57:26,077 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 21:57:26,078 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\s4lez\Desktop\THIAGO\Java\EE\Projeto1SBWorkspace\prova-spring\src\test\resources
+2020-08-24 21:57:29,110 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 21:57:29,112 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-24 21:57:29,115 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-24 21:57:29,117 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 21:57:29,117 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\s4lez\Desktop\THIAGO\Java\EE\Projeto1SBWorkspace\prova-spring\src\test\resources
+2020-08-24 21:58:58,602 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 21:58:58,603 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-24 21:58:58,603 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-24 21:58:58,605 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 21:58:58,605 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\s4lez\Desktop\THIAGO\Java\EE\Projeto1SBWorkspace\prova-spring\src\test\resources
+2020-08-24 21:59:04,847 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 21:59:04,850 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-24 21:59:04,854 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-24 21:59:04,857 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 21:59:04,858 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\s4lez\Desktop\THIAGO\Java\EE\Projeto1SBWorkspace\prova-spring\src\test\resources
+2020-08-24 21:59:12,965 [Worker-14: Launching Executing install in C__Users_s4lez_Desktop_THIAGO_Java_EE_Projeto1SBWorkspace_prova-spring] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\s4lez\Desktop\THIAGO\Java\EE\Projeto1SBWorkspace\prova-spring
+2020-08-24 21:59:12,965 [Worker-14: Launching Executing install in C__Users_s4lez_Desktop_THIAGO_Java_EE_Projeto1SBWorkspace_prova-spring] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2020-08-24 21:59:38,668 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 21:59:38,671 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-24 21:59:38,674 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-24 21:59:38,676 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 21:59:38,676 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\s4lez\Desktop\THIAGO\Java\EE\Projeto1SBWorkspace\prova-spring\src\test\resources
+2020-08-24 22:05:53,390 [Worker-0: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.fapi.prova.java:prova-spring:0.0.1-SNAPSHOT @ C:\xampp\htdocs\workspaceProvaQuenteFrio\prova-spring\pom.xml.
+2020-08-24 22:05:56,635 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 22:05:56,636 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-24 22:05:56,649 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-24 22:05:56,651 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 22:05:56,652 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\htdocs\workspaceProvaQuenteFrio\prova-spring\src\test\resources
+2020-08-24 22:05:59,007 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 22:05:59,010 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-24 22:05:59,013 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-24 22:05:59,015 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 22:05:59,015 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\xampp\htdocs\workspaceProvaQuenteFrio\prova-spring\src\test\resources
+2020-08-24 22:08:08,661 [Worker-24: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.fapi.prova.java:prova-spring:0.0.1-SNAPSHOT @ C:\Users\s4lez\Desktop\THIAGO\Java\EE\Projeto1SBWorkspace\prova-spring\pom.xml.
+2020-08-24 22:08:12,176 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 22:08:12,177 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-24 22:08:12,190 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-24 22:08:12,192 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 22:08:12,192 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\s4lez\Desktop\THIAGO\Java\EE\Projeto1SBWorkspace\prova-spring\src\test\resources
+2020-08-24 22:08:14,379 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 22:08:14,382 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-24 22:08:14,386 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-24 22:08:14,388 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 22:08:14,388 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\s4lez\Desktop\THIAGO\Java\EE\Projeto1SBWorkspace\prova-spring\src\test\resources
+2020-08-24 22:38:15,314 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-08-24 22:48:23,256 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-08-24 22:48:50,012 [Worker-1: Launching prova-spring - ProvaSpringApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 22:48:50,019 [Worker-1: Launching prova-spring - ProvaSpringApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-24 22:48:50,033 [Worker-1: Launching prova-spring - ProvaSpringApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-24 22:48:50,035 [Worker-1: Launching prova-spring - ProvaSpringApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 22:48:50,035 [Worker-1: Launching prova-spring - ProvaSpringApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\s4lez\Desktop\THIAGO\Java\EE\Projeto1SBWorkspace\prova-spring\src\test\resources
+2020-08-24 22:59:49,928 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 22:59:49,934 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-24 22:59:49,939 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-24 22:59:49,942 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 22:59:49,942 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\s4lez\Desktop\THIAGO\Java\EE\Projeto1SBWorkspace\prova-spring\src\test\resources
+2020-08-24 23:04:36,972 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 23:04:36,975 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-24 23:04:36,979 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-24 23:04:36,982 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-24 23:04:36,983 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\s4lez\Desktop\THIAGO\Java\EE\Projeto1SBWorkspace\prova-spring\src\test\resources
