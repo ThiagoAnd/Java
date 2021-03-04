@@ -13,10 +13,12 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-
+import org.springframework.hateoas.*;
+import org.springframework.hateoas.*;
 import com.in28minutes.rest.webservices.restfulwebservices.exceptions.UserNotFoundException;
 import com.in28minutes.rest.webservices.restfulwebservices.models.User;
 import com.in28minutes.rest.webservices.restfulwebservices.service.UserDaoService;
+
 
 @RestController
 public class UserResource {

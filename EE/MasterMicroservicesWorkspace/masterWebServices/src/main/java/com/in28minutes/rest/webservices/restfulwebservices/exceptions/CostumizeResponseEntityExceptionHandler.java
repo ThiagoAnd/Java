@@ -40,7 +40,8 @@ public class CostumizeResponseEntityExceptionHandler extends ResponseEntityExcep
 			MethodArgumentNotValidException ex, HttpHeaders headers, HttpStatus status, WebRequest request) {
 
 		ExceptionResponse exceptionResponse = new ExceptionResponse(new Date(), ex.getMessage(),ex.getBindingResult().toString());
-		return handleExceptionInternal(ex, null, headers, status, request);
+		//ExceptionResponse exceptionResponse = new ExceptionResponse(new Date(), ex.getMessage(),"Validation failed");
+		return new ResponseEntity(exceptionResponse,HttpStatus.BAD_REQUEST);
 	}
 	
 	
