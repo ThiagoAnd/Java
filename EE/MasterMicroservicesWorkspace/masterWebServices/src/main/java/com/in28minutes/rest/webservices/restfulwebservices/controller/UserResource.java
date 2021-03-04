@@ -2,7 +2,7 @@ package com.in28minutes.rest.webservices.restfulwebservices.controller;
 
 import java.util.List;
 
-import javax.websocket.server.PathParam;
+import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -50,7 +50,7 @@ public class UserResource {
 	}
 
 	@PostMapping("/users")
-	public ResponseEntity<Object> createUser(@RequestBody User user) {
+	public ResponseEntity<Object> createUser(@Valid @RequestBody User user) {
 		userDaoService.save(user);
 
 		return ResponseEntity.status(HttpStatus.CREATED).body("Usuario criado");
