@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.support.ResourceBundleMessageSource;
 import org.springframework.web.servlet.LocaleResolver;
+import org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver;
 import org.springframework.web.servlet.i18n.SessionLocaleResolver;
 
 @SpringBootApplication
@@ -18,10 +19,16 @@ public class MasterWebServicesApplication {
 
 	@Bean
 	public LocaleResolver localeResolver() {
+		//Metodo antigo que era usado com o request header para internacionalização
 		SessionLocaleResolver localeResolver = new SessionLocaleResolver();
+		//AcceptHeaderLocaleResolver localeResolver = new AcceptHeaderLocaleResolver();
+		
+		
 		localeResolver.setDefaultLocale(Locale.US);
 		return localeResolver;
 	}
+	
+	//Tem um metodo que agora é mais facil que é utilizar o application.properties para usar messages
 	
 	@Bean
 	public ResourceBundleMessageSource messageSource() {
@@ -29,5 +36,6 @@ public class MasterWebServicesApplication {
 	messageSource.setBasename("messages");
 	return messageSource;
 	}
+	
 
 }

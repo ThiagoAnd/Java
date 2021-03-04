@@ -25,21 +25,21 @@ public class HelloWorldController {
 		
 	}
 	
-	//Deste modo para internacionalizar vc teria que colocar o request header em cada metodo, isso não é produtivo, verificar no hello controller metodo, para ver o que mudou
-	/**@GetMapping("/hello-internacional")
+	//Deste modo para internacionalizar vc teria que colocar o request header em cada metodo, isso não é produtivo, 
+	@GetMapping("/hello-internacionall")
 	public String helloWorldInternacionalized(@RequestHeader(name="Accept-Language", required=false) Locale locale) {
 		return messageSource.getMessage("good.morning.message", null, locale);
 			
 		
-	}*/
+	}
 	
 	//Modo atualizado
-	@GetMapping("/hello-internacional")
+	/*@GetMapping("/hello-internacional")
 	public String helloWorldInternacionalized() {
 		return messageSource.getMessage("good.morning.message", null, LocaleContextHolder.getLocale());
 		
 		
-	}
+	}*/
 	
 	@GetMapping("/hello-bean")
 	public HelloWorldBean helloWorldBean() {
