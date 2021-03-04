@@ -7,6 +7,7 @@ import javax.websocket.server.PathParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -27,21 +28,31 @@ public class UserResource {
 	public List<User> retrieveAllUsers() {
 		return userDaoService.findaLL();
 	}
-	
+
 	@GetMapping("/users/{id}")
 	public User retrieveUser(@PathVariable int id) {
 		User user = userDaoService.findOne(id);
-		if(user==null) {
-			throw new UserNotFoundException("id: "+id);
+		if (user == null) {
+			throw new UserNotFoundException("id: " + id);
 		}
-		return user; 
-		
+		return user;
+
 	}
-	
+
+	@DeleteMapping("/users/{id}")
+	public void deleteUser(@PathVariable int id) {
+		User user = userDaoService.deleteById(id);
+
+		if (user == null) {
+			throw new UserNotFoundException("id: " + id);
+		}
+
+	}
+
 	@PostMapping("/users")
 	public ResponseEntity<Object> createUser(@RequestBody User user) {
 		userDaoService.save(user);
-		
+
 		return ResponseEntity.status(HttpStatus.CREATED).body("Usuario criado");
 	}
 
