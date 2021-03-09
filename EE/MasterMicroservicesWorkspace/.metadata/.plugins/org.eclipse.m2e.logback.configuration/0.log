@@ -4881,3 +4881,410 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2021-03-08 17:10:18,975 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-03-08 17:10:18,975 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2021-03-08 17:10:18,975 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\currency-conversion-service\src\test\resources
+2021-03-09 10:18:44,941 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-03-09 11:09:39,001 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.in28minutes.microservices:naming-server:0.0.1-SNAPSHOT @ C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\naming-server\pom.xml.
+2021-03-09 11:09:40,528 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-server/3.0.1/spring-cloud-starter-netflix-eureka-server-3.0.1.pom
+2021-03-09 11:09:40,700 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-server/3.0.1/spring-cloud-starter-netflix-eureka-server-3.0.1.pom
+2021-03-09 11:09:40,856 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix/3.0.1/spring-cloud-netflix-3.0.1.pom
+2021-03-09 11:09:41,011 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix/3.0.1/spring-cloud-netflix-3.0.1.pom
+2021-03-09 11:09:41,167 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-server/3.0.1/spring-cloud-netflix-eureka-server-3.0.1.pom
+2021-03-09 11:09:41,324 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-server/3.0.1/spring-cloud-netflix-eureka-server-3.0.1.pom
+2021-03-09 11:09:41,543 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-freemarker/2.4.3/spring-boot-starter-freemarker-2.4.3.pom
+2021-03-09 11:09:41,700 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-freemarker/2.4.3/spring-boot-starter-freemarker-2.4.3.pom
+2021-03-09 11:09:41,856 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/5.3.4/spring-context-support-5.3.4.pom
+2021-03-09 11:09:42,011 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/5.3.4/spring-context-support-5.3.4.pom
+2021-03-09 11:09:42,166 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-client/3.0.1/spring-cloud-netflix-eureka-client-3.0.1.pom
+2021-03-09 11:09:42,322 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-client/3.0.1/spring-cloud-netflix-eureka-client-3.0.1.pom
+2021-03-09 11:09:42,542 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom
+2021-03-09 11:09:42,699 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom
+2021-03-09 11:09:42,840 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.pom
+2021-03-09 11:09:42,995 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/14.0.1/guava-parent-14.0.1.pom
+2021-03-09 11:09:43,165 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/servo/servo-core/0.5.3/servo-core-0.5.3.pom
+2021-03-09 11:09:43,306 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/servo/servo-core/0.5.3/servo-core-0.5.3.pom
+2021-03-09 11:09:43,524 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/19.0/guava-19.0.pom
+2021-03-09 11:09:43,665 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/19.0/guava-19.0.pom
+2021-03-09 11:09:43,821 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/19.0/guava-parent-19.0.pom
+2021-03-09 11:09:43,992 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/19.0/guava-parent-19.0.pom
+2021-03-09 11:09:44,382 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-loadbalancer/3.0.1/spring-cloud-starter-loadbalancer-3.0.1.pom
+2021-03-09 11:09:44,523 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-loadbalancer/3.0.1/spring-cloud-starter-loadbalancer-3.0.1.pom
+2021-03-09 11:09:44,695 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-loadbalancer/3.0.1/spring-cloud-loadbalancer-3.0.1.pom
+2021-03-09 11:09:44,836 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-loadbalancer/3.0.1/spring-cloud-loadbalancer-3.0.1.pom
+2021-03-09 11:09:45,084 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.4.3/reactor-core-3.4.3.pom
+2021-03-09 11:09:45,225 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.4.3/reactor-core-3.4.3.pom
+2021-03-09 11:09:45,396 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.4.2/reactor-extra-3.4.2.pom
+2021-03-09 11:09:45,552 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.4.2/reactor-extra-3.4.2.pom
+2021-03-09 11:09:45,709 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-cache/2.4.3/spring-boot-starter-cache-2.4.3.pom
+2021-03-09 11:09:45,848 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-cache/2.4.3/spring-boot-starter-cache-2.4.3.pom
+2021-03-09 11:09:46,659 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-server/3.0.1/spring-cloud-starter-netflix-eureka-server-3.0.1.jar
+2021-03-09 11:09:46,815 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-server/3.0.1/spring-cloud-starter-netflix-eureka-server-3.0.1.jar
+2021-03-09 11:09:46,940 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-server/3.0.1/spring-cloud-netflix-eureka-server-3.0.1.jar
+2021-03-09 11:09:47,593 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-server/3.0.1/spring-cloud-netflix-eureka-server-3.0.1.jar
+2021-03-09 11:09:47,734 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-freemarker/2.4.3/spring-boot-starter-freemarker-2.4.3.jar
+2021-03-09 11:09:47,891 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-freemarker/2.4.3/spring-boot-starter-freemarker-2.4.3.jar
+2021-03-09 11:09:48,031 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/5.3.4/spring-context-support-5.3.4.jar
+2021-03-09 11:09:48,201 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/5.3.4/spring-context-support-5.3.4.jar
+2021-03-09 11:09:48,341 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-client/3.0.1/spring-cloud-netflix-eureka-client-3.0.1.jar
+2021-03-09 11:09:48,512 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-client/3.0.1/spring-cloud-netflix-eureka-client-3.0.1.jar
+2021-03-09 11:09:48,652 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/19.0/guava-19.0.jar
+2021-03-09 11:09:49,137 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/19.0/guava-19.0.jar
+2021-03-09 11:09:49,296 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-loadbalancer/3.0.1/spring-cloud-starter-loadbalancer-3.0.1.jar
+2021-03-09 11:09:49,451 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-loadbalancer/3.0.1/spring-cloud-starter-loadbalancer-3.0.1.jar
+2021-03-09 11:09:49,594 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-loadbalancer/3.0.1/spring-cloud-loadbalancer-3.0.1.jar
+2021-03-09 11:09:49,750 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-loadbalancer/3.0.1/spring-cloud-loadbalancer-3.0.1.jar
+2021-03-09 11:09:49,891 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.4.3/reactor-core-3.4.3.jar
+2021-03-09 11:09:50,524 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.4.3/reactor-core-3.4.3.jar
+2021-03-09 11:09:50,665 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.4.2/reactor-extra-3.4.2.jar
+2021-03-09 11:09:50,836 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.4.2/reactor-extra-3.4.2.jar
+2021-03-09 11:09:50,976 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-cache/2.4.3/spring-boot-starter-cache-2.4.3.jar
+2021-03-09 11:09:51,117 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-cache/2.4.3/spring-boot-starter-cache-2.4.3.jar
+2021-03-09 11:09:54,239 [Worker-27: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /naming-server/src/main/java
+2021-03-09 11:09:54,239 [Worker-27: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /naming-server/src/main/resources
+2021-03-09 11:09:54,255 [Worker-27: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /naming-server/src/main/resources
+2021-03-09 11:09:54,255 [Worker-27: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /naming-server/src/test/java
+2021-03-09 11:09:55,612 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 19 sec
+2021-03-09 11:09:56,970 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-server/3.0.1/spring-cloud-starter-netflix-eureka-server-3.0.1-sources.jar
+2021-03-09 11:09:56,986 [Worker-23: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:3.0.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:sources:3.0.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:302) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.400.v20190506-1457.jar:na]
+2021-03-09 11:09:57,610 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:09:57,610 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:09:57,610 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-09 11:09:57,626 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-09 11:09:57,626 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:09:57,626 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:09:57,626 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\naming-server\src\test\resources
+2021-03-09 11:09:57,689 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-server/3.0.1/spring-cloud-netflix-eureka-server-3.0.1-sources.jar
+2021-03-09 11:09:58,406 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-server/3.0.1/spring-cloud-netflix-eureka-server-3.0.1-sources.jar
+2021-03-09 11:09:58,484 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-netflix-eureka-server:3.0.1
+2021-03-09 11:09:59,154 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-freemarker/2.4.3/spring-boot-starter-freemarker-2.4.3-sources.jar
+2021-03-09 11:09:59,419 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-freemarker/2.4.3/spring-boot-starter-freemarker-2.4.3-sources.jar
+2021-03-09 11:09:59,496 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-freemarker:2.4.3
+2021-03-09 11:09:59,994 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:09:59,994 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:10:00,009 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-09 11:10:00,009 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-09 11:10:00,009 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:10:00,009 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:10:00,009 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\naming-server\src\test\resources
+2021-03-09 11:10:00,181 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/5.3.4/spring-context-support-5.3.4-sources.jar
+2021-03-09 11:10:00,675 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/5.3.4/spring-context-support-5.3.4-sources.jar
+2021-03-09 11:10:00,722 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context-support:5.3.4
+2021-03-09 11:10:01,394 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-client/3.0.1/spring-cloud-netflix-eureka-client-3.0.1-sources.jar
+2021-03-09 11:10:01,735 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-netflix-eureka-client/3.0.1/spring-cloud-netflix-eureka-client-3.0.1-sources.jar
+2021-03-09 11:10:01,798 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-netflix-eureka-client:3.0.1
+2021-03-09 11:10:02,467 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/19.0/guava-19.0-sources.jar
+2021-03-09 11:10:03,496 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/19.0/guava-19.0-sources.jar
+2021-03-09 11:10:03,591 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.guava:guava:19.0
+2021-03-09 11:10:04,277 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-loadbalancer/3.0.1/spring-cloud-starter-loadbalancer-3.0.1-sources.jar
+2021-03-09 11:10:04,277 [Worker-23: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.cloud:spring-cloud-starter-loadbalancer:3.0.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:sources:3.0.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:302) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.400.v20190506-1457.jar:na]
+2021-03-09 11:10:04,946 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-loadbalancer/3.0.1/spring-cloud-loadbalancer-3.0.1-sources.jar
+2021-03-09 11:10:05,260 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-loadbalancer/3.0.1/spring-cloud-loadbalancer-3.0.1-sources.jar
+2021-03-09 11:10:05,308 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-loadbalancer:3.0.1
+2021-03-09 11:10:05,995 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.4.3/reactor-core-3.4.3-sources.jar
+2021-03-09 11:10:07,038 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.4.3/reactor-core-3.4.3-sources.jar
+2021-03-09 11:10:07,085 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.projectreactor:reactor-core:3.4.3
+2021-03-09 11:10:07,752 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.4.2/reactor-extra-3.4.2-sources.jar
+2021-03-09 11:10:08,126 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.4.2/reactor-extra-3.4.2-sources.jar
+2021-03-09 11:10:08,174 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.projectreactor.addons:reactor-extra:3.4.2
+2021-03-09 11:10:08,859 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-cache/2.4.3/spring-boot-starter-cache-2.4.3-sources.jar
+2021-03-09 11:10:09,013 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-cache/2.4.3/spring-boot-starter-cache-2.4.3-sources.jar
+2021-03-09 11:10:09,060 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-cache:2.4.3
+2021-03-09 11:10:09,744 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-server/3.0.1/spring-cloud-starter-netflix-eureka-server-3.0.1-javadoc.jar
+2021-03-09 11:10:09,744 [Worker-23: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:3.0.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:javadoc:3.0.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:314) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.400.v20190506-1457.jar:na]
+2021-03-09 11:10:09,760 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-netflix-eureka-server:3.0.1
+2021-03-09 11:10:09,760 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-freemarker:2.4.3
+2021-03-09 11:10:09,775 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context-support:5.3.4
+2021-03-09 11:10:09,775 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-netflix-eureka-client:3.0.1
+2021-03-09 11:10:09,790 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.guava:guava:19.0
+2021-03-09 11:10:10,603 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-loadbalancer/3.0.1/spring-cloud-starter-loadbalancer-3.0.1-javadoc.jar
+2021-03-09 11:10:10,603 [Worker-23: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.cloud:spring-cloud-starter-loadbalancer:3.0.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:javadoc:3.0.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:314) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.400.v20190506-1457.jar:na]
+2021-03-09 11:10:10,603 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-loadbalancer:3.0.1
+2021-03-09 11:10:10,618 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.projectreactor:reactor-core:3.4.3
+2021-03-09 11:10:10,618 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.projectreactor.addons:reactor-extra:3.4.2
+2021-03-09 11:10:10,634 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-cache:2.4.3
+2021-03-09 11:10:12,100 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:10:12,100 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:10:12,100 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-09 11:10:12,100 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-09 11:10:12,100 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:10:12,100 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:10:12,100 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\naming-server\src\test\resources
+2021-03-09 11:12:41,330 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:12:41,330 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:12:41,345 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-09 11:12:41,393 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-09 11:12:41,393 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:12:41,393 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:12:41,393 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\naming-server\src\test\resources
+2021-03-09 11:12:59,967 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:12:59,967 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:12:59,967 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-09 11:12:59,982 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-09 11:12:59,982 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:12:59,982 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:12:59,982 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\naming-server\src\test\resources
+2021-03-09 11:13:22,394 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:13:22,394 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:13:22,394 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-09 11:13:22,394 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-09 11:13:22,409 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:13:22,409 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:13:22,409 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\naming-server\src\test\resources
+2021-03-09 11:14:15,360 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:14:15,360 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:14:15,360 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-09 11:14:15,360 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-09 11:14:15,375 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:14:15,375 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:14:15,375 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\naming-server\src\test\resources
+2021-03-09 11:14:58,141 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:14:58,141 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:14:58,141 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-09 11:14:58,173 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:14:58,173 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:14:58,173 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\naming-server\src\test\resources
+2021-03-09 11:15:10,224 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:15:10,224 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:15:10,224 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-09 11:15:10,240 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:15:10,240 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:15:10,240 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\naming-server\src\test\resources
+2021-03-09 11:15:38,200 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:15:38,200 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:15:38,200 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-09 11:15:38,216 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:15:38,216 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:15:38,216 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\naming-server\src\test\resources
+2021-03-09 11:25:26,145 [Worker-34: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.in28minutes.microservices:naming-server:0.0.1-SNAPSHOT @ C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\naming-server\pom.xml.
+2021-03-09 11:25:28,925 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:25:28,925 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:25:28,925 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-09 11:25:28,925 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-09 11:25:28,925 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:25:28,941 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:25:28,941 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\naming-server\src\test\resources
+2021-03-09 11:26:37,274 [Worker-36: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.in28minutes.microservices:currency-conversion-service:0.0.1-SNAPSHOT @ C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\currency-conversion-service\pom.xml.
+2021-03-09 11:26:38,863 [Worker-36: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.0.1/spring-cloud-starter-netflix-eureka-client-3.0.1.pom
+2021-03-09 11:26:39,051 [Worker-36: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.0.1/spring-cloud-starter-netflix-eureka-client-3.0.1.pom
+2021-03-09 11:26:39,348 [Worker-37: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.0.1/spring-cloud-starter-netflix-eureka-client-3.0.1.pom
+2021-03-09 11:26:39,504 [Worker-37: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.0.1/spring-cloud-starter-netflix-eureka-client-3.0.1.pom
+2021-03-09 11:26:40,068 [Worker-36: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.0.1/spring-cloud-starter-netflix-eureka-client-3.0.1.jar
+2021-03-09 11:26:40,162 [Worker-37: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.0.1/spring-cloud-starter-netflix-eureka-client-3.0.1.jar
+2021-03-09 11:26:40,224 [Worker-36: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.0.1/spring-cloud-starter-netflix-eureka-client-3.0.1.jar
+2021-03-09 11:26:40,333 [Worker-37: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.0.1/spring-cloud-starter-netflix-eureka-client-3.0.1.jar
+2021-03-09 11:26:41,222 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:26:41,222 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:26:41,222 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-09 11:26:41,253 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-09 11:26:41,253 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:26:41,253 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:26:41,253 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\currency-conversion-service\src\test\resources
+2021-03-09 11:26:43,859 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:26:43,859 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:26:43,859 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-09 11:26:43,875 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-09 11:26:43,875 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:26:43,875 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:26:43,875 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\currency-conversion-service\src\test\resources
+2021-03-09 11:26:44,531 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.0.1/spring-cloud-starter-netflix-eureka-client-3.0.1-sources.jar
+2021-03-09 11:26:44,546 [Worker-37: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:3.0.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:sources:3.0.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:302) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.400.v20190506-1457.jar:na]
+2021-03-09 11:27:31,703 [Worker-40: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.in28minutes.microservices:currency-exchange-service:0.0.1-SNAPSHOT @ C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\currency-exchange-service\pom.xml.
+2021-03-09 11:27:33,857 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:27:33,857 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:27:33,857 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-09 11:27:33,857 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-09 11:27:33,857 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:27:33,857 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:27:33,857 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\currency-exchange-service\src\test\resources
+2021-03-09 11:27:36,462 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:27:36,462 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:27:36,477 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-09 11:27:36,477 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-09 11:27:36,493 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:27:36,493 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:27:36,493 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\currency-exchange-service\src\test\resources
+2021-03-09 11:27:37,163 [Worker-35: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/3.0.1/spring-cloud-starter-netflix-eureka-client-3.0.1-javadoc.jar
+2021-03-09 11:27:37,163 [Worker-35: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:3.0.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:javadoc:3.0.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:314) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.400.v20190506-1457.jar:na]
+2021-03-09 11:28:06,457 [Worker-28: Launching naming-server - NamingServerApplication] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.in28minutes.microservices:naming-server:0.0.1-SNAPSHOT @ C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\naming-server\pom.xml.
+2021-03-09 11:28:07,926 [Worker-28: Launching naming-server - NamingServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:28:07,926 [Worker-28: Launching naming-server - NamingServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:28:07,926 [Worker-28: Launching naming-server - NamingServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-09 11:28:07,926 [Worker-28: Launching naming-server - NamingServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-09 11:28:07,926 [Worker-28: Launching naming-server - NamingServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:28:07,926 [Worker-28: Launching naming-server - NamingServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:28:07,926 [Worker-28: Launching naming-server - NamingServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\naming-server\src\test\resources
+2021-03-09 11:32:24,871 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:32:24,871 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:32:24,871 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-09 11:32:24,902 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 11:32:24,902 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 11:32:24,902 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\naming-server\src\test\resources
+2021-03-09 13:51:14,062 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 13:51:14,062 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 13:51:14,077 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-09 13:51:14,200 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-09 13:51:14,200 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 13:51:14,200 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 13:51:14,200 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\currency-conversion-service\src\test\resources
+2021-03-09 15:41:11,186 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-09 15:41:27,604 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 15:41:27,604 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 15:41:27,604 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-09 15:41:27,635 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-09 15:41:27,635 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 15:41:27,635 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 15:41:27,635 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\currency-conversion-service\src\test\resources
+2021-03-09 15:41:38,452 [Worker-16: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.in28minutes.microservices:naming-server:0.0.1-SNAPSHOT @ C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\naming-server\pom.xml.
+2021-03-09 15:41:40,562 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 15:41:40,562 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 15:41:40,562 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-09 15:41:40,593 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 15:41:40,593 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 15:41:40,593 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\naming-server\src\test\resources
+2021-03-09 15:42:04,593 [Worker-4: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.in28minutes.microservices:naming-server:0.0.1-SNAPSHOT @ C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\naming-server\pom.xml.
+2021-03-09 15:42:06,522 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 15:42:06,522 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 15:42:06,522 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-09 15:42:06,537 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-09 15:42:06,537 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 15:42:06,537 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 15:42:06,537 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\naming-server\src\test\resources
+2021-03-09 15:42:10,360 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 15:42:10,360 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 15:42:10,376 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-09 15:42:10,376 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 15:42:10,376 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 15:42:10,376 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\naming-server\src\test\resources
+2021-03-09 15:43:16,677 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 15:43:16,677 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 15:43:16,677 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-09 15:43:16,677 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-09 15:43:16,677 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 15:43:16,677 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 15:43:16,677 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\naming-server\src\test\resources
+2021-03-09 15:48:23,540 [Worker-16: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.in28minutes.microservices:naming-server:0.0.1-SNAPSHOT @ C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\naming-server\pom.xml.
+2021-03-09 15:48:24,524 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 15:48:24,524 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 15:48:24,524 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-09 15:48:24,524 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-09 15:48:24,524 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 15:48:24,524 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 15:48:24,524 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\naming-server\src\test\resources
+2021-03-09 15:48:27,630 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 15:48:27,630 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 15:48:27,630 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-09 15:48:27,630 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 15:48:27,630 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 15:48:27,630 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\naming-server\src\test\resources
+2021-03-09 15:48:55,592 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 15:48:55,592 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 15:48:55,592 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-09 15:48:55,623 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-09 15:48:55,623 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-09 15:48:55,623 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\naming-server\src\test\resources
