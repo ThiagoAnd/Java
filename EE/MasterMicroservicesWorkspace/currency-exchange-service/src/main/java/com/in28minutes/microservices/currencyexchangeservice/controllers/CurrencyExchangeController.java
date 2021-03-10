@@ -30,5 +30,6 @@ public class CurrencyExchangeController {
 		currencyExchange.setEnvironment(port);
 
 		return currencyExchange;
+		
 	}
 }

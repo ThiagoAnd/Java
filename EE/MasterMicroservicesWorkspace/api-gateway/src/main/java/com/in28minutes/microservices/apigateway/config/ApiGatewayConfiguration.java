@@ -1,0 +1,49 @@
+package com.in28minutes.microservices.apigateway.config;
+
+import java.util.function.Function;
+
+import org.springframework.cloud.gateway.route.Route;
+import org.springframework.cloud.gateway.route.RouteLocator;
+import org.springframework.cloud.gateway.route.builder.Buildable;
+import org.springframework.cloud.gateway.route.builder.PredicateSpec;
+import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+//Essa classe se não me engano é para configurar rotas dinamicas
+//Para fazer essa classe funcionar, tem que ir no api gateway appication.properties e comentar a ligação do service discovery com eureka (2 ultimas linhas de codigo)
+@Configuration
+public class ApiGatewayConfiguration {
+
+	//Comentei para parar de ser dinamico, ou seja, vou ter que novamente pegar o nome do serviço no eureka e utilizar
+	/*
+	@Bean
+	public RouteLocator gatewayRouter(RouteLocatorBuilder builder) {
+		
+		
+		Function<PredicateSpec, Buildable<Route>> routeFunction = p ->p.path("/get")
+				.filters(f -> f
+						
+						.addRequestHeader("MyHeader", "MyURI")
+						.addRequestParameter("Param", "MyValue"))
+				.uri("http://httpbin.org:80");
+		
+		Function<PredicateSpec, Buildable<Route>> routeFunction2 = p ->p.path("/currency-exchange/**").uri("lb://currency-exchange");
+		Function<PredicateSpec, Buildable<Route>> routeFunction3 = p ->p.path("/currency-conversion/**").uri("lb://currency-conversion");
+		Function<PredicateSpec, Buildable<Route>> routeFunction4 = p ->p.path("/currency-conversion-feign/**").uri("lb://currency-conversion");
+		Function<PredicateSpec, Buildable<Route>> routeFunction5 = p ->p.path("/currency-conversion-new/**")
+				.filters(f -> f.rewritePath("/currency-conversion-new/(?<segment>.*)", "/currency-conversion-feign/${segment}"))
+				.uri("lb://currency-conversion");
+
+		
+		
+		return builder.routes()
+				.route(routeFunction)
+				.route(routeFunction2)
+				.route(routeFunction3)
+				.route(routeFunction4)
+				.route(routeFunction5)
+				.build();
+	}
+	
+*/
+}
