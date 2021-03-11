@@ -3,6 +3,8 @@ package com.in28minutes.microservices.currencyconversionservice.controllers;
 import java.math.BigDecimal;
 import java.util.HashMap;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,6 +17,9 @@ import com.in28minutes.microservices.currencyconversionservice.feignclients.Curr
 
 @RestController
 public class CurrencyConversionController {
+	
+	Logger logger = LoggerFactory.getLogger(this.getClass());
+
 	
 	@Autowired
 	private CurrencyExchangeProxy proxy;
@@ -43,6 +48,8 @@ public class CurrencyConversionController {
 	
 		
 		CurrencyConversion currencyConversion = proxy.retrieveExchangeValue(from, to);
+		
+		logger.info("Conversion -> {}",currencyConversion.toString());
 		
 		return new CurrencyConversion(currencyConversion.getId(), from, to, currencyConversion.getConversionMultiple(), quantity, quantity.multiply(currencyConversion.getConversionMultiple()), currencyConversion.getEnvironment()+" "+"Feign ");
 	}

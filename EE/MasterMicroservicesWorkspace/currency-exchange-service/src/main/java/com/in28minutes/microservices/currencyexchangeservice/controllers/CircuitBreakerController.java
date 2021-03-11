@@ -27,16 +27,16 @@ public class CircuitBreakerController {
 	// limitar que em 10 segundos poderemos ter somente 1000chamadas
 	// @CircuitBreaker(name = "default", fallbackMethod = "testeMetodoAlternativo")
 	//@RateLimiter(name = "x")
-	 @Bulkhead(name="sample-api")
+	// @Bulkhead(name="sample-api")
 	@GetMapping("/sample-api")
 	// Comentando o Retry, agora vamos usar o CircuitBreaker
 	 //@Retry(name="testeRETRY", fallbackMethod = "testeMetodoAlternativo")
 	public String sampleApi() {
 		logger.info("API call received");
-//		ResponseEntity<String> forEntity = new RestTemplate().getForEntity("http://localhost:8080/enderecofalsoblabla",
-//				String.class);
-//		return forEntity.getBody();
-		return "asdfasdf";
+		ResponseEntity<String> forEntity = new RestTemplate().getForEntity("http://localhost:8080/enderecofalsoblabla",
+				String.class);
+		return forEntity.getBody();
+//		return "asdfasdf";
 	}
 
 	// Essa parte foi legal, quando não estava com esse Exception como parametro,
