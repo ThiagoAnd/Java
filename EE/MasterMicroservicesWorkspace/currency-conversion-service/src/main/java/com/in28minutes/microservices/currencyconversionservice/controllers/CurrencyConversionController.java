@@ -23,6 +23,12 @@ public class CurrencyConversionController {
 	
 	@Autowired
 	private CurrencyExchangeProxy proxy;
+	
+	
+	@GetMapping("/teste")
+	public String testeRota() {
+		return "Rota inicial funcionando";
+	}
 
 	//Com Rest Template
 	@GetMapping("/currency-conversion/from/{from}/to/{to}/quantity/{quantity}")
@@ -32,7 +38,7 @@ public class CurrencyConversionController {
 		uriVariables.put("from", from);
 		uriVariables.put("to", to);
 		
-		ResponseEntity<CurrencyConversion> responseEntity= new RestTemplate().getForEntity("http://localhost:8000/currency-exchange/from/{from}/to/{to}",CurrencyConversion.class,
+		ResponseEntity<CurrencyConversion> responseEntity= new RestTemplate().getForEntity("http://naming-server/currency-exchange/from/{from}/to/{to}",CurrencyConversion.class,
 				uriVariables);
 		
 		CurrencyConversion currencyConversion = responseEntity.getBody();
@@ -46,7 +52,7 @@ public class CurrencyConversionController {
 	public CurrencyConversion calculateCurrencyConversionFeign (@PathVariable String from,@PathVariable String to,@PathVariable BigDecimal quantity ) {
 		
 	
-		
+		logger.info("Entrou no controller do currency conversion");
 		CurrencyConversion currencyConversion = proxy.retrieveExchangeValue(from, to);
 		
 		logger.info("Conversion -> {}",currencyConversion.toString());
