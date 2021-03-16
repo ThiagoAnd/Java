@@ -13912,3 +13912,19 @@ Caused by: java.lang.ClassNotFoundException: org.apache.maven.plugins.shade.reso
 2021-03-15 11:25:47,946 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
 2021-03-15 11:26:03,648 [Worker-89: Launching api-gateway (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\api-gateway
 2021-03-15 11:26:03,648 [Worker-89: Launching api-gateway (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:build-image   -DskipTests
+2021-03-15 12:25:53,169 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-15 12:29:48,318 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-15 12:29:53,455 [Worker-8: Launching naming-server (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\naming-server
+2021-03-15 12:29:53,455 [Worker-8: Launching naming-server (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:build-image   -DskipTests
+2021-03-15 12:30:10,934 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-15 12:30:25,173 [Worker-9: Launching currency-exchange-service (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\currency-exchange-service
+2021-03-15 12:30:25,173 [Worker-9: Launching currency-exchange-service (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:build-image   -DskipTests
+2021-03-15 12:30:32,427 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-15 12:30:53,137 [Worker-12: Launching currency-conversion-service (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\currency-conversion-service
+2021-03-15 12:30:53,137 [Worker-12: Launching currency-conversion-service (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:build-image   -DskipTests
+2021-03-15 12:30:59,315 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-15 12:31:31,753 [Worker-0: Launching api-gateway (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\api-gateway
+2021-03-15 12:31:31,753 [Worker-0: Launching api-gateway (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:build-image   -DskipTests
+2021-03-15 12:34:06,861 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-15 12:34:12,376 [Worker-18: Launching api-gateway (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\api-gateway
+2021-03-15 12:34:12,376 [Worker-18: Launching api-gateway (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:build-image   -DskipTests
