@@ -1,6 +1,7 @@
 package com.collectiongenerics.thiago.collections.list;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Hashtable;
 import java.util.LinkedList;
 import java.util.List;
@@ -23,7 +24,8 @@ public class CollectionsArrayListExample {
 		arrayList.remove(0);
 		arrayList.stream().forEach(System.out::println);
 		
-		
+		ArrayList arrayList1 = new ArrayList();
+		ArrayList<String> arrayList2 = new ArrayList<String>();
 	
 		
 	}
