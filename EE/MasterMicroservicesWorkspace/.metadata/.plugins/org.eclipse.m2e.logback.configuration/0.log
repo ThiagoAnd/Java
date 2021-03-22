@@ -13928,3 +13928,91 @@ Caused by: java.lang.ClassNotFoundException: org.apache.maven.plugins.shade.reso
 2021-03-15 12:34:06,861 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
 2021-03-15 12:34:12,376 [Worker-18: Launching api-gateway (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\api-gateway
 2021-03-15 12:34:12,376 [Worker-18: Launching api-gateway (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:build-image   -DskipTests
+2021-03-22 08:43:43,407 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-03-22 11:27:08,887 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-22 11:27:15,414 [Worker-23: Launching naming-server (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\naming-server
+2021-03-22 11:27:15,429 [Worker-23: Launching naming-server (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:build-image   -DskipTests
+2021-03-22 11:29:13,898 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-22 11:29:19,423 [Worker-28: Launching currency-exchange-service (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\currency-exchange-service
+2021-03-22 11:29:19,423 [Worker-28: Launching currency-exchange-service (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:build-image   -DskipTests
+2021-03-22 11:43:41,527 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-22 11:43:46,405 [Worker-30: Launching currency-conversion-service (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\currency-conversion-service
+2021-03-22 11:43:46,421 [Worker-30: Launching currency-conversion-service (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:build-image   -DskipTests
+2021-03-22 11:43:55,263 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-22 11:44:16,996 [Worker-27: Launching api-gateway (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\api-gateway
+2021-03-22 11:44:16,996 [Worker-27: Launching api-gateway (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:build-image   -DskipTests
+2021-03-22 11:51:04,794 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-22 11:51:04,794 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-22 11:51:04,794 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-22 11:51:04,841 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-22 11:51:04,857 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-22 11:51:04,857 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-22 11:51:04,857 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\currency-exchange-service\src\test\resources
+2021-03-22 11:51:06,991 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-22 11:51:06,991 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-22 11:51:06,991 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-22 11:51:06,991 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-22 11:51:06,991 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-22 11:51:06,991 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-22 11:51:06,991 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\currency-exchange-service\src\test\resources
+2021-03-22 11:51:08,131 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-22 11:51:08,131 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-22 11:51:08,131 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-22 11:51:08,147 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-22 11:51:08,147 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-22 11:51:08,147 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-22 11:51:08,147 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\limits-service\src\test\resources
+2021-03-22 11:51:10,667 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-22 11:51:10,667 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-22 11:51:10,683 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-22 11:51:10,683 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-22 11:51:10,683 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-22 11:51:10,683 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-22 11:51:10,683 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\spring-cloud-config-server\src\test\resources
+2021-03-22 11:51:48,830 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-22 11:51:48,830 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-22 11:51:48,830 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-22 11:51:48,846 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-22 11:51:48,861 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-22 11:51:48,861 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-22 11:51:48,861 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\currency-conversion-service\src\test\resources
+2021-03-22 11:51:50,122 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-22 11:51:50,122 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-22 11:51:50,122 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-22 11:51:50,122 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-22 11:51:50,122 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-22 11:51:50,122 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-22 11:51:50,122 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\currency-conversion-service\src\test\resources
+2021-03-22 11:52:00,763 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-22 11:52:00,778 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-22 11:52:00,778 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-22 11:52:00,809 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-22 11:52:00,809 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-22 11:52:00,809 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-22 11:52:00,809 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\currency-exchange-service\src\test\resources
+2021-03-22 11:52:30,853 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-22 11:52:30,853 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-22 11:52:30,853 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-22 11:52:30,883 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-22 11:52:30,883 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-22 11:52:30,883 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-22 11:52:30,883 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\api-gateway\src\test\resources
+2021-03-22 11:52:32,163 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-22 11:52:32,163 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-22 11:52:32,163 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-22 11:52:32,163 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-22 11:52:32,163 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-22 11:52:32,163 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-22 11:52:32,163 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\api-gateway\src\test\resources
+2021-03-22 11:52:46,744 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-22 11:56:06,817 [Worker-40: Launching naming-server (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\naming-server
+2021-03-22 11:56:06,817 [Worker-40: Launching naming-server (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:build-image   -DskipTests
+2021-03-22 11:57:54,551 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-22 11:58:00,236 [Worker-42: Launching currency-exchange-service (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\currency-exchange-service
+2021-03-22 11:58:00,236 [Worker-42: Launching currency-exchange-service (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:build-image   -DskipTests
+2021-03-22 11:58:53,789 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-22 11:59:00,036 [Worker-40: Launching currency-conversion-service (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\currency-conversion-service
+2021-03-22 11:59:00,036 [Worker-40: Launching currency-conversion-service (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:build-image   -DskipTests
+2021-03-22 11:59:42,609 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-22 11:59:47,391 [Worker-43: Launching api-gateway (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\THIAGO\Java\EE\MasterMicroservicesWorkspace\api-gateway
+2021-03-22 11:59:47,391 [Worker-43: Launching api-gateway (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:build-image   -DskipTests

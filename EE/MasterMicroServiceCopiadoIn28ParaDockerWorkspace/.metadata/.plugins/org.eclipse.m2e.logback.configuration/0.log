@@ -2576,3 +2576,41 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2021-03-15 12:22:44,030 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-03-15 12:22:44,030 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2021-03-15 12:22:44,046 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroServiceCopiadoIn28ParaDockerWorkspace\04.docker\api-gateway\src\test\resources
+2021-03-22 12:29:11,668 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-22 12:35:17,292 [Worker-28: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.in28minutes.microservices:currency-conversion-service:0.0.1-SNAPSHOT @ C:\THIAGO\Java\EE\MasterMicroServiceCopiadoIn28ParaDockerWorkspace\currency-conversion-service\pom.xml.
+2021-03-22 12:35:19,549 [Worker-28: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.in28minutes.microservices:currency-exchange-service:0.0.1-SNAPSHOT @ C:\THIAGO\Java\EE\MasterMicroServiceCopiadoIn28ParaDockerWorkspace\currency-exchange-service\pom.xml.
+2021-03-22 12:35:20,486 [Worker-28: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.in28minutes.microservices:naming-server:0.0.1-SNAPSHOT @ C:\THIAGO\Java\EE\MasterMicroServiceCopiadoIn28ParaDockerWorkspace\naming-server\pom.xml.
+2021-03-22 12:35:21,326 [Worker-28: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.in28minutes.microservices:api-gateway:0.0.1-SNAPSHOT @ C:\THIAGO\Java\EE\MasterMicroServiceCopiadoIn28ParaDockerWorkspace\api-gateway\pom.xml.
+2021-03-22 12:35:26,737 [Worker-28: Importing Maven projects] WARN  o.e.m.j.i.AbstractJavaProjectConfigurator - Could not determine source level, using default 1.5
+2021-03-22 12:35:26,737 [Worker-28: Importing Maven projects] WARN  o.e.m.j.i.AbstractJavaProjectConfigurator - Could not determine target level, using default 1.5
+2021-03-22 12:35:27,189 [Worker-28: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /currency-conversion-service/src/main/java
+2021-03-22 12:35:27,189 [Worker-28: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currency-conversion-service/src/main/resources
+2021-03-22 12:35:27,189 [Worker-28: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currency-conversion-service/src/main/resources
+2021-03-22 12:35:27,205 [Worker-28: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /currency-conversion-service/src/test/java
+2021-03-22 12:35:28,827 [Worker-28: Importing Maven projects] WARN  o.e.m.j.i.AbstractJavaProjectConfigurator - Could not determine source level, using default 1.5
+2021-03-22 12:35:28,827 [Worker-28: Importing Maven projects] WARN  o.e.m.j.i.AbstractJavaProjectConfigurator - Could not determine target level, using default 1.5
+2021-03-22 12:35:28,843 [Worker-28: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /currency-exchange-service/src/main/java
+2021-03-22 12:35:28,843 [Worker-28: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currency-exchange-service/src/main/resources
+2021-03-22 12:35:28,859 [Worker-28: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currency-exchange-service/src/main/resources
+2021-03-22 12:35:28,874 [Worker-28: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /currency-exchange-service/src/test/java
+2021-03-22 12:35:30,978 [Worker-28: Importing Maven projects] WARN  o.e.m.j.i.AbstractJavaProjectConfigurator - Could not determine source level, using default 1.5
+2021-03-22 12:35:30,978 [Worker-28: Importing Maven projects] WARN  o.e.m.j.i.AbstractJavaProjectConfigurator - Could not determine target level, using default 1.5
+2021-03-22 12:35:31,009 [Worker-28: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /naming-server/src/main/java
+2021-03-22 12:35:31,009 [Worker-28: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /naming-server/src/main/resources
+2021-03-22 12:35:31,024 [Worker-28: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /naming-server/src/main/resources
+2021-03-22 12:35:31,040 [Worker-28: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /naming-server/src/test/java
+2021-03-22 12:35:32,431 [Worker-28: Importing Maven projects] WARN  o.e.m.j.i.AbstractJavaProjectConfigurator - Could not determine source level, using default 1.5
+2021-03-22 12:35:32,431 [Worker-28: Importing Maven projects] WARN  o.e.m.j.i.AbstractJavaProjectConfigurator - Could not determine target level, using default 1.5
+2021-03-22 12:35:32,462 [Worker-28: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/main/java
+2021-03-22 12:35:32,462 [Worker-28: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2021-03-22 12:35:32,462 [Worker-28: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2021-03-22 12:35:32,478 [Worker-28: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/test/java
+2021-03-22 12:35:34,226 [Worker-28: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 4 project(s) in 19 sec
+2021-03-22 12:35:40,264 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-22 12:35:40,264 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-22 12:35:40,264 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-03-22 12:35:40,296 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-22 12:35:40,296 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2021-03-22 12:35:40,296 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-22 12:35:40,296 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-03-22 12:35:40,296 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\THIAGO\Java\EE\MasterMicroServiceCopiadoIn28ParaDockerWorkspace\api-gateway\src\test\resources

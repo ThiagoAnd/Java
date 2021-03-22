@@ -5,14 +5,14 @@ services:
     image:  thiagoandradeit/microservicosin28minutes-currency-exchange-service:0.0.1-SNAPSHOT
     mem_limit: 700m
     ports:
-      - "8000:8000"
+      - "127.0.0.1:8000:8000"
     networks:
-      - currency-exchange
+      - currency-network
     depends_on:
       - naming-server
     environment:
       EUREKA.CLIENT.SERVICE-URL.DEFAULTZONE: http://naming-server:8761/eureka
-      SPRING.ZIPKIN.BASEURL: http://zipkin-server:9411/
+      #SPRING.ZIPKIN.BASEURL: http://zipkin-server:9411/
     
       
       
@@ -20,14 +20,14 @@ services:
     image:  thiagoandradeit/microservicosin28minutes-currency-conversion-service:0.0.1-SNAPSHOT
     mem_limit: 700m
     ports:
-      - "8100:8100"
+      - "127.0.0.1:8100:8100"
     networks:
-      - currency-exchange
+      - currency-network
     depends_on:
       - naming-server
     environment:
       EUREKA.CLIENT.SERVICE-URL.DEFAULTZONE: http://naming-server:8761/eureka
-      SPRING.ZIPKIN.BASEURL: http://zipkin-server:9411/
+      #SPRING.ZIPKIN.BASEURL: http://zipkin-server:9411/
   
       
       
@@ -35,14 +35,14 @@ services:
     image:  thiagoandradeit/microservicosin28minutes-api-gateway:0.0.1-SNAPSHOT
     mem_limit: 700m
     ports:
-      - "8765:8765"
+      - "127.0.0.1:8765:8765"
     networks:
-      - currency-exchange
+      - currency-network
     depends_on:
       - naming-server
     environment:
       EUREKA.CLIENT.SERVICE-URL.DEFAULTZONE: http://naming-server:8761/eureka
-      SPRING.ZIPKIN.BASEURL: http://zipkin-server:9411/
+      #SPRING.ZIPKIN.BASEURL: http://zipkin-server:9411/
     
       
       
@@ -50,19 +50,20 @@ services:
     image:  thiagoandradeit/microservicosin28minutes-naming-server:0.0.1-SNAPSHOT
     mem_limit: 700m
     ports:
-      - "8761:8761"
+      - "127.0.0.1:8761:8761"
     networks:
-      - currency-exchange
+      - currency-network
     
       
-  zipkin-server:
-    image: openzipkin/zipkin:2.23 
-    mem_limit: 700m
-    ports:
-      - "9411:9411"
-    networks:
-      - currency-exchange
+  #zipkin-server:
+   # image: openzipkin/zipkin:2.23 
+    #mem_limit: 700m
+    #ports:
+     # - "9411:9411"
+    #networks:
+     # - currency-network
       
 networks:
-  currency-exchange:
+  currency-network:
+    
       
