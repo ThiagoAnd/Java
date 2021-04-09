@@ -1,0 +1,12 @@
+{
+    "env":{
+        "MYSQL_USER":"2QsVPFEMSo",
+        "MYSQL_PASSWORD":"ayNQUJODsN",
+        "MYSQL_DATABASE":"2QsVPFEMSo",
+        "MYSQL_HOST":"remotemysql.com",
+        "JWT_KEY": "pipoca",
+        "MYSQL_PORT":3306
+        
+
+    }
+}
