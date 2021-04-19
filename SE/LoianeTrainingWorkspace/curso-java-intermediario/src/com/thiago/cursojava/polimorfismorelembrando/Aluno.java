@@ -20,11 +20,7 @@ public class Aluno extends Pessoa{
 		this.curso = curso;
 	}
 
-	@Override
-	public String sobre() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	
 
 	/*public String sobre() {
 		return "Sou aluno";

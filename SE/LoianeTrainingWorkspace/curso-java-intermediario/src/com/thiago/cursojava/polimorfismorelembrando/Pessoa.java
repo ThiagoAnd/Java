@@ -1,6 +1,6 @@
 package com.thiago.cursojava.polimorfismorelembrando;
 
-public abstract class Pessoa {
+public  class Pessoa {
 	
 	private String nome;
 	private String endereco;
@@ -33,10 +33,14 @@ public abstract class Pessoa {
 		this.telefone = telefone;
 	}
 	
-	public abstract String sobre();
 	
-	public void classePai() {
-		System.out.println("Metodo da classe pai");
+	
+	public void sobreSemAbstract() {
+		System.out.println("Metodo sem abstract da classe pai");
+	}
+	
+	public void nomeClasse() {
+		System.out.println("Sou a classe Pessoa");
 	}
 
 }

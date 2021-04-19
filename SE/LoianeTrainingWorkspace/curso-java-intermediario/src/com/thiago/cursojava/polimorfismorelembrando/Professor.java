@@ -8,6 +8,7 @@ public class Professor extends Pessoa {
 	}
 
 	public Professor() {}
+	
 	public Double getSalario() {
 		return Salario;
 	}
@@ -19,8 +20,13 @@ public class Professor extends Pessoa {
 	private Double Salario;
 	
 	
-	public String sobre() {
-		return "Sou professor";
+	public void nomeClasse() {
+	System.out.println("Sou a classe Professor");
+	}
+	
+	
+	public void sobreSemAbstract() {
+		System.out.println("Metodo sem abstract da classe filha");
 	}
 
 }
