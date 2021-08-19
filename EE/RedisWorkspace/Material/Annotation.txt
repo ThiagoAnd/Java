@@ -1,0 +1,5 @@
+Sobr Redis no windows 
+
+https://github.com/microsoftarchive/redis
+
+Redis foi feito para ambiente Linux então o port da microsoft pode não funcionar tão bem quanto.
