@@ -2,6 +2,8 @@ package io.redis.redisdemo.dao;
 
 import java.util.concurrent.TimeUnit;
 
+import javax.annotation.Resource;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Repository;
@@ -12,7 +14,7 @@ public class ProgrammerRepositoryImpl implements ProgrammerRepository {
 	
 	//Precisamos usar o redis template bean que foi criado anteriormente
 	//na classe SpringConfig, 
-	@Autowired
+	@Resource
 	private RedisTemplate<String,Object> redisTemplate;
 
 	@Override
